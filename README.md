@@ -1,7 +1,7 @@
 # Simple
 A very simple projects for beginners &lt;3
 
-# This project shows how to make a storyboard, custom cells for a tableview, how to hook up an action to a button 
+This project shows how to make a storyboard, custom cells for a tableview, how to hook up an action to a button 
 using storyboard or code, how to customize UI items in the storyboard from code, etc. 
 
 This is a very simple project that shows you the most commonly used way of doing this - using TableViews. 
