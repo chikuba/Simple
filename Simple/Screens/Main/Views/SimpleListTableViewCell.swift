@@ -10,8 +10,8 @@ import UIKit
 
 class SimpleListTableViewCell: UITableViewCell {
     
-    @IBOutlet weak var titleLabel: UILabel?
-    @IBOutlet weak var rightImageView: UIImageView?
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var rightImageView: UIImageView!
     
     // MARK: - Class
     
@@ -33,16 +33,14 @@ class SimpleListTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
 
-        if let imageView = self.rightImageView {
-            imageView.image = UIImage(named: "example_image")
-            
-            // this makes the image view round with a black border
-            imageView.layer.borderWidth = 1.0
-            imageView.layer.masksToBounds = false
-            imageView.layer.borderColor = UIColor.blackColor().CGColor
-            imageView.layer.cornerRadius = self.rightImageView!.frame.height / 2.0
-            imageView.clipsToBounds = true
-        }
+        self.rightImageView.image = UIImage(named: "example_image")
+        
+        // this makes the image view round with a black border
+        self.rightImageView.layer.borderWidth = 1.0
+        self.rightImageView.layer.masksToBounds = false
+        self.rightImageView.layer.borderColor = UIColor.blackColor().CGColor
+        self.rightImageView.layer.cornerRadius = self.rightImageView!.frame.height / 2.0
+        self.rightImageView.clipsToBounds = true
     }
     
     // this happens before a cells is being reused. Have a look at apples doc
