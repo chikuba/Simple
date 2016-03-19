@@ -1,5 +1,5 @@
 # Simple
-A very simple projects for beginners &lt;3
+A very simple project for beginners &lt;3
 
 This project shows how to make a storyboard, custom cells for a tableview, how to hook up an action to a button 
 using storyboard or code, how to customize UI items in the storyboard from code, etc. 
