@@ -37,6 +37,10 @@ class SimpleListViewController: UITableViewController {
         
     }
     
+    // MARK: - Navigation
+    
+    // this method is called just before a segue (the gray lines on the storyboard) happens
+    // here you have some info of what the destinationViewController is etc. 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
         if (segue.identifier == "ShowListItem") {
