@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDA64A4B1C9CCFB400B73BCF /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA64A4A1C9CCFB400B73BCF /* StartViewController.swift */; };
 		BDDBC9C31C9C2A450086F333 /* SimpleItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDBC9C21C9C2A450086F333 /* SimpleItemViewController.swift */; };
-		BDDBC9C51C9C2E8C0086F333 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDBC9C41C9C2E8C0086F333 /* StartViewController.swift */; };
 		BDECDCF71C9C0E16007E11CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDECDCF61C9C0E16007E11CE /* AppDelegate.swift */; };
 		BDECDCFC1C9C0E16007E11CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDECDCFA1C9C0E16007E11CE /* Main.storyboard */; };
 		BDECDCFE1C9C0E16007E11CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDECDCFD1C9C0E16007E11CE /* Assets.xcassets */; };
@@ -19,8 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BDA64A4A1C9CCFB400B73BCF /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StartViewController.swift; path = Screens/Main/ViewControllers/StartViewController.swift; sourceTree = "<group>"; };
 		BDDBC9C21C9C2A450086F333 /* SimpleItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleItemViewController.swift; path = Screens/Main/ViewControllers/SimpleItemViewController.swift; sourceTree = "<group>"; };
-		BDDBC9C41C9C2E8C0086F333 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		BDECDCF31C9C0E16007E11CE /* Simple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDECDCF61C9C0E16007E11CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDECDCFB1C9C0E16007E11CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 		BDECDD0C1C9C0F32007E11CE /* VewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				BDDBC9C41C9C2E8C0086F333 /* StartViewController.swift */,
+				BDA64A4A1C9CCFB400B73BCF /* StartViewController.swift */,
 				BDECDD161C9C150E007E11CE /* SimpleListViewController.swift */,
 				BDDBC9C21C9C2A450086F333 /* SimpleItemViewController.swift */,
 			);
@@ -196,7 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDDBC9C51C9C2E8C0086F333 /* StartViewController.swift in Sources */,
+				BDA64A4B1C9CCFB400B73BCF /* StartViewController.swift in Sources */,
 				BDECDCF71C9C0E16007E11CE /* AppDelegate.swift in Sources */,
 				BDDBC9C31C9C2A450086F333 /* SimpleItemViewController.swift in Sources */,
 				BDECDD171C9C150E007E11CE /* SimpleListViewController.swift in Sources */,
